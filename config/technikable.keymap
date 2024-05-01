@@ -28,12 +28,12 @@
         combo_ime_on {
             timeout-ms = <50>;
             key-positions = <26 27>; // Key: X C
-            bindings = <&kp LANG4>;
+            bindings = <&kp LANG2>;
         };
         combo_ime_off {
             timeout-ms = <50>;
             key-positions = <32 33>; // Key: , .
-            bindings = <&kp LANG6>;
+            bindings = <&kp LANG1>;
         };
 
         combo_ctrl_right {

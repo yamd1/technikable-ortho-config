@@ -27,12 +27,12 @@
         };
         combo_ime_on {
             timeout-ms = <50>;
-            key-positions = <27 28>; // Key: X C
+            key-positions = <26 27>; // Key: X C
             bindings = <&kp INT2>;
         };
         combo_ime_off {
             timeout-ms = <50>;
-            key-positions = <33 34>; // Key: , .
+            key-positions = <32 33>; // Key: , .
             bindings = <&kp INT1>;
         };
 
@@ -54,29 +54,29 @@
         };
         combo_shft_left {
             timeout-ms = <50>;
-            key-positions = <15 17>; // Key: S F
+            key-positions = <14 16>; // Key: S F
             bindings = <&kp LSHFT>;
         };
 
         combo_alt_right {
             timeout-ms = <50>;
-            key-positions = <21 22>; // Key: K L
+            key-positions = <20 21>; // Key: K L
             bindings = <&kp RALT>;
         };
         combo_alt_left {
             timeout-ms = <50>;
-            key-positions = <15 16>; // Key: S F
+            key-positions = <14 15>; // Key: S F
             bindings = <&kp LALT>;
         };
 
         combo_ctrl_shft_right {
             timeout-ms = <50>;
-            key-positions = <20 21 22>; // Key: J K L
+            key-positions = <19 20 21>; // Key: J K L
             bindings = <&kp RCTRL>, <&kp RSHFT>;
         };
         combo_ctrl_shft_left {
             timeout-ms = <50>;
-            key-positions = <15 16 17>; // Key: S D F
+            key-positions = <14 15 16>; // Key: S D F
             bindings = <&kp LCTRL>, <&kp LSHFT>;
         };
     };

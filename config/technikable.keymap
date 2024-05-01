@@ -38,18 +38,18 @@
 
         combo_ctrl_right {
             timeout-ms = <50>;
-            key-positions = <20 21>; // Key: J K
+            key-positions = <19 20>; // Key: J K
             bindings = <&kp RCTRL>;
         };
         combo_ctrl_left {
             timeout-ms = <50>;
-            key-positions = <16 17>; // Key: D F
+            key-positions = <15 16>; // Key: D F
             bindings = <&kp LCTRL>;
         };
 
         combo_shft_right {
             timeout-ms = <50>;
-            key-positions = <20 22>; // Key: J L
+            key-positions = <19 21>; // Key: J L
             bindings = <&kp RSHFT>;
         };
         combo_shft_left {
@@ -65,7 +65,7 @@
         };
         combo_alt_left {
             timeout-ms = <50>;
-            key-positions = <14 15>; // Key: S F
+            key-positions = <14 16>; // Key: S F
             bindings = <&kp LALT>;
         };
 

@@ -28,12 +28,12 @@
         combo_ime_on {
             timeout-ms = <50>;
             key-positions = <26 27>; // Key: X C
-            bindings = <&kp INT2>;
+            bindings = <&kp LANG4>;
         };
         combo_ime_off {
             timeout-ms = <50>;
             key-positions = <32 33>; // Key: , .
-            bindings = <&kp INT1>;
+            bindings = <&kp LANG6>;
         };
 
         combo_ctrl_right {
@@ -104,7 +104,7 @@
 //|----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------|
     &kp TAB    &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp QUOT
 //|----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------|
-    &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RET
+    &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp TAB
 //|----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------|
                           &kp LCTRL  &kp BKSP   &mo NAV_L  &kp SPACE  &kp RET    &mo NUM_L  &kp RALT   &kp RCTRL
 //|----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------|

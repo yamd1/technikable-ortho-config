@@ -65,19 +65,19 @@
         };
         combo_alt_left {
             timeout-ms = <50>;
-            key-positions = <14 16>; // Key: S F
+            key-positions = <14 15>; // Key: S F
             bindings = <&kp LALT>;
         };
 
         combo_ctrl_shft_right {
             timeout-ms = <50>;
             key-positions = <19 20 21>; // Key: J K L
-            bindings = <&kp RCTRL>, <&kp RSHFT>;
+            bindings = <&mt RCTRL>, <&mt RSHFT>;
         };
         combo_ctrl_shft_left {
             timeout-ms = <50>;
             key-positions = <14 15 16>; // Key: S D F
-            bindings = <&kp LCTRL>, <&kp LSHFT>;
+            bindings = <&mt LCTRL>, <&mt LSHFT>;
         };
     };
 

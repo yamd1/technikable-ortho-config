@@ -73,12 +73,12 @@
         combo_ctrl_shft_right {
             timeout-ms = <50>;
             key-positions = <19 20 21>; // Key: J K L
-            bindings = <&mt RCTRL>, <&mt RSHFT>;
+            bindings = <&kp RS(RCTRL)>;
         };
         combo_ctrl_shft_left {
             timeout-ms = <50>;
             key-positions = <14 15 16>; // Key: S D F
-            bindings = <&mt LCTRL>, <&mt LSHFT>;
+            bindings = <&kp LS(LCTRL)>;
         };
     };
 

@@ -22,15 +22,15 @@
     macros {
         my_arw: my_arw {
           compatible = "zmk,behavior-macro";
-          bindings = <&macro_tab &kp MINUS &kp GT>
+          bindings = <&macro_tab &kp MINUS &kp GT>;
         };
         my_darw: my_darw {
           compatible = "zmk,behavior-macro";
-          bindings = <&macro_tab &kp EQUAL &kp GT>
+          bindings = <&macro_tab &kp EQUAL &kp GT>;
         };
         my_esc: my_esc {
           compatible = "zmk,behavior-macro";
-          bindings = <&macro_tab &kp LANG2 &kp ESC>
+          bindings = <&macro_tab &kp LANG2 &kp ESC>;
         };
     };
 
@@ -159,7 +159,7 @@
             label = "Nav";
             bindings = <
 //|------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------|
-    &bt BT_CLR   &trans       &trans       &trans       &trans      &trans       &kp LS(N6)   &kp LS(N7)   &kp LS(N9)   &kp LS(N0)   &kp LS(8)    &trans
+    &bt BT_CLR   &trans       &trans       &my_darw     &my_arw      &trans       &kp LS(N6)   &kp LS(N7)   &kp LS(N9)   &kp LS(N0)   &kp LS(8)    &trans
 //|------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------|
     &kp TAB      &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)   &kp MINUS    &kp EQUAL    &kp LBKT     &kp RBKT     &kp QUOT     &trans
 //|------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------|

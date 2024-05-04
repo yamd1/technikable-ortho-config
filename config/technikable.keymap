@@ -22,15 +22,15 @@
     macros {
         my_arw: my_arw {
           compatible = "zmk,behavior-macro";
-          bindings = <&macro_tab &kp MINUS &kp GT>;
+          bindings = <&macro_tap &kp MINUS &kp GT>;
         };
         my_darw: my_darw {
           compatible = "zmk,behavior-macro";
-          bindings = <&macro_tab &kp EQUAL &kp GT>;
+          bindings = <&macro_tap &kp EQUAL &kp GT>;
         };
         my_esc: my_esc {
           compatible = "zmk,behavior-macro";
-          bindings = <&macro_tab &kp LANG2 &kp ESC>;
+          bindings = <&macro_tap &kp LANG2 &kp ESC>;
         };
     };
 

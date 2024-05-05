@@ -42,8 +42,7 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <2 3>; // Key: W E
-            // bindings = <&my_esc>;
-            bindings = <&kp ESC>;
+            bindings = <&my_esc>;
         };
         combo_ime_on {
             timeout-ms = <50>;

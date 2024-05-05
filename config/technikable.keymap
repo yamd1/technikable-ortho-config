@@ -21,17 +21,20 @@
 / {
     macros {
         my_arw: my_arw {
-          compatible = "zmk,behavior-macro";
-          bindings = <&macro_tap &kp MINUS &kp GT>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp MINUS &kp GT>;
         };
         my_darw: my_darw {
-          compatible = "zmk,behavior-macro";
-          bindings = <&macro_tap &kp EQUAL &kp GT>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp EQUAL &kp GT>;
         };
-        // my_esc: my_esc {
-        //   compatible = "zmk,behavior-macro";
-        //   bindings = <&macro_tap &kp LANG2 &kp ESC>;
-        // };
+        my_esc: my_esc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp LANG2 &kp ESC>;
+        };
     };
 
     combos {

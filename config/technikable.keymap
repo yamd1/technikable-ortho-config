@@ -119,11 +119,11 @@
             bindings = <&kp LC(LGUI)>;
         };
 
-        // combo_caps_word {
-        //     timeout-ms = <50>;
-        //     key-positions = <16 19>; // Key: F J
-        //     bindings = <&caps_word>;
-        // };
+        combo_caps_word {
+            timeout-ms = <50>;
+            key-positions = <16 19>; // Key: F J
+            bindings = <&caps_word>;
+        };
     };
 
     chosen {

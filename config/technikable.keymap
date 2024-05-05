@@ -107,16 +107,16 @@
             bindings = <&kp LS(LCTRL)>;
         };
 
-        combo_ctrl_alt_right {
-            timeout-ms = <50>;
-            key-positions = <19 20 21 22>; // Key: J K L ;
-            bindings = <&kp RC(RGUI)>;
-        };
-        combo_ctrl_alt_left {
-            timeout-ms = <50>;
-            key-positions = <13 14 15 16>; // Key: A S D F
-            bindings = <&kp LC(LGUI)>;
-        };
+        // combo_ctrl_alt_right {
+        //     timeout-ms = <50>;
+        //     key-positions = <19 20 21 22>; // Key: J K L ;
+        //     bindings = <&kp RC(RGUI)>;
+        // };
+        // combo_ctrl_alt_left {
+        //     timeout-ms = <50>;
+        //     key-positions = <13 14 15 16>; // Key: A S D F
+        //     bindings = <&kp LC(LGUI)>;
+        // };
 
         combo_caps_word {
             timeout-ms = <50>;

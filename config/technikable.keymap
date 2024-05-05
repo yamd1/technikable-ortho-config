@@ -66,67 +66,67 @@
         combo_ctrl_right {
             timeout-ms = <50>;
             key-positions = <19 20>; // Key: J K
-            bindings = <&kp RCTRL>;
+            bindings = <&sk RCTRL>;
         };
         combo_ctrl_left {
             timeout-ms = <50>;
             key-positions = <15 16>; // Key: D F
-            bindings = <&kp LCTRL>;
+            bindings = <&sk LCTRL>;
         };
 
         combo_shft_right {
             timeout-ms = <50>;
             key-positions = <19 21>; // Key: J L
-            bindings = <&kp RSHFT>;
+            bindings = <&sk RSHFT>;
         };
         combo_shft_left {
             timeout-ms = <50>;
             key-positions = <14 16>; // Key: S F
-            bindings = <&kp LSHFT>;
+            bindings = <&sk LSHFT>;
         };
 
         combo_alt_right {
             timeout-ms = <50>;
             key-positions = <20 21>; // Key: K L
-            bindings = <&kp RALT>;
+            bindings = <&sk RALT>;
         };
         combo_alt_left {
             timeout-ms = <50>;
             key-positions = <14 15>; // Key: S F
-            bindings = <&kp LALT>;
+            bindings = <&sk LALT>;
         };
 
         combo_gui_right {
             timeout-ms = <50>;
             key-positions = <19 22>; // Key: J COLON
-            bindings = <&kp RGUI>;
+            bindings = <&sk RGUI>;
         };
         combo_gui_left {
             timeout-ms = <50>;
             key-positions = <13 16>; // Key: A F
-            bindings = <&kp LGUI>;
+            bindings = <&sk LGUI>;
         };
 
         combo_ctrl_shft_right {
             timeout-ms = <50>;
             key-positions = <19 20 21>; // Key: J K L
-            bindings = <&kp RS(RCTRL)>;
+            bindings = <&sk RS(RCTRL)>;
         };
         combo_ctrl_shft_left {
             timeout-ms = <50>;
             key-positions = <14 15 16>; // Key: S D F
-            bindings = <&kp LS(LCTRL)>;
+            bindings = <&sk LS(LCTRL)>;
         };
 
         combo_ctrl_alt_right {
             timeout-ms = <50>;
             key-positions = <19 20 21 22>; // Key: J K L ;
-            bindings = <&kp RC(RGUI)>;
+            bindings = <&sk RC(RGUI)>;
         };
         combo_ctrl_alt_left {
             timeout-ms = <50>;
             key-positions = <13 14 15 16>; // Key: A S D F
-            bindings = <&kp LC(LGUI)>;
+            bindings = <&sk LC(LGUI)>;
         };
     };
 

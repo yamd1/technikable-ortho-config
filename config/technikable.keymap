@@ -47,6 +47,11 @@
             key-positions = <2 3>; // Key: W E
             bindings = <&my_esc>;
         };
+        combo_caps_word {
+            timeout-ms = <50>;
+            key-positions = <16 19>; // Key: F J
+            bindings = <&caps_word>;
+        };
         combo_ime_on {
             timeout-ms = <50>;
             key-positions = <26 27>; // Key: X C
@@ -122,13 +127,6 @@
             timeout-ms = <50>;
             key-positions = <13 14 15 16>; // Key: A S D F
             bindings = <&kp LC(LGUI)>;
-        };
-
-        combo_caps_word {
-            timeout-ms = <50>;
-            // key-positions = <16 19>; // Key: F J
-            key-positions = <0 1>; // Key: F J
-            bindings = <&caps_word>;
         };
     };
 

@@ -20,6 +20,9 @@
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
 };
+&mt {
+    tapping-term-ms = <100>;
+};
 
 / {
     macros {
@@ -66,67 +69,67 @@
         combo_ctrl_right {
             timeout-ms = <50>;
             key-positions = <19 20>; // Key: J K
-            bindings = <&sk RCTRL>;
+            bindings = <&kp RCTRL>;
         };
         combo_ctrl_left {
             timeout-ms = <50>;
             key-positions = <15 16>; // Key: D F
-            bindings = <&sk LCTRL>;
+            bindings = <&kp LCTRL>;
         };
 
         combo_shft_right {
             timeout-ms = <50>;
             key-positions = <19 21>; // Key: J L
-            bindings = <&sk RSHFT>;
+            bindings = <&kp RSHFT>;
         };
         combo_shft_left {
             timeout-ms = <50>;
             key-positions = <14 16>; // Key: S F
-            bindings = <&sk LSHFT>;
+            bindings = <&kp LSHFT>;
         };
 
         combo_alt_right {
             timeout-ms = <50>;
             key-positions = <20 21>; // Key: K L
-            bindings = <&sk RALT>;
+            bindings = <&kp RALT>;
         };
         combo_alt_left {
             timeout-ms = <50>;
             key-positions = <14 15>; // Key: S F
-            bindings = <&sk LALT>;
+            bindings = <&kp LALT>;
         };
 
         combo_gui_right {
             timeout-ms = <50>;
             key-positions = <19 22>; // Key: J COLON
-            bindings = <&sk RGUI>;
+            bindings = <&kp RGUI>;
         };
         combo_gui_left {
             timeout-ms = <50>;
             key-positions = <13 16>; // Key: A F
-            bindings = <&sk LGUI>;
+            bindings = <&kp LGUI>;
         };
 
         combo_ctrl_shft_right {
             timeout-ms = <50>;
             key-positions = <19 20 21>; // Key: J K L
-            bindings = <&sk RS(RCTRL)>;
+            bindings = <&kp RS(RCTRL)>;
         };
         combo_ctrl_shft_left {
             timeout-ms = <50>;
             key-positions = <14 15 16>; // Key: S D F
-            bindings = <&sk LS(LCTRL)>;
+            bindings = <&kp LS(LCTRL)>;
         };
 
         combo_ctrl_alt_right {
             timeout-ms = <50>;
             key-positions = <19 20 21 22>; // Key: J K L ;
-            bindings = <&sk RC(RGUI)>;
+            bindings = <&kp RC(RGUI)>;
         };
         combo_ctrl_alt_left {
             timeout-ms = <50>;
             key-positions = <13 14 15 16>; // Key: A S D F
-            bindings = <&sk LC(LGUI)>;
+            bindings = <&kp LC(LGUI)>;
         };
     };
 
